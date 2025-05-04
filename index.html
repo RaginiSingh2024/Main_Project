@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>10-Day Tutorial</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #2c2f39;
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    .topnav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .container {
+      display: flex;
+      height: calc(100vh - 60px);
+    }
+
+    .sidebar {
+      background-color: white;
+      width: 250px;
+      padding: 20px;
+      box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    }
+
+    .sidebar h2 {
+      margin-top: 0;
+      font-size: 20px;
+    }
+
+    .sidebar p {
+      margin: 10px 0;
+      color: #333;
+    }
+
+    .content {
+      background-color: white;
+      padding: 40px;
+      flex: 1;
+      margin: 10px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    .content h2 {
+      margin-top: 0;
+      font-size: 24px;
+    }
+
+    .content p {
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>10-Day Tutorial</h1>
+    <nav class="topnav">
+      <a href="#">Day 1</a>
+      <a href="#">Day 2</a>
+      <a href="#">Day 3</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <aside class="sidebar">
+      <h2>Day 1 Menu</h2>
+      <p>Intro</p>
+      <p>HTML Tags</p>
+      <p>HTML Elements</p>
+      <h2>Day 2 Menu</h2>
+      <p>Attributes</p>
+      <p>Headings</p>
+    </aside>
+
+    <section class="content">
+      <h2><strong>HTML Headings</strong></h2>
+      <p>HTML headings go from &lt;h1&gt; to &lt;h6&gt; and define titles.</p>
+    </section>
+  </div>
+</body>
+</html>
